@@ -11,5 +11,6 @@ function outer(b) {
 }
     return outer;
 }
+//let a = 100; it still 10 if 10 is not in above code it gives 100, if both are not there it gives refernece errorś
 var close = outest()("hello world"); // 10
 close();
