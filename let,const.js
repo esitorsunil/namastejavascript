@@ -20,3 +20,4 @@ console.log(d);
 console.log(y); //is not defined Reference Error    
 
 //const is best one , if not const use let
+//inialization is must in top is a good practice
