@@ -69,6 +69,6 @@ function a(){
 
 var y = a();
 
-//.....thousand line of code
+//.....thousand line of code ...memory leak
 
 y(); //can access x
