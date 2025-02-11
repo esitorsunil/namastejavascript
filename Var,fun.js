@@ -8,6 +8,6 @@ function getName() {
     console.log("Namaste JS")
 };
 
-var getName2 = function () {
+var getName2 = function () { 
     console.log("Namaste")
 };
