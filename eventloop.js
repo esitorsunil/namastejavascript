@@ -8,3 +8,4 @@
 //4. Event loop continuously observes call stack and when it is empty it transfers task to call stack.
 //5. Micro task is given priority over callback tasks.
 //6. Too many micro tasks generated can cause Starvation (nit giving time to callback tasks to execute).
+
