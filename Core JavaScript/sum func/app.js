@@ -1,0 +1,17 @@
+
+
+let sum = function(a){
+    return function(b){
+        if(b){
+        return sum(a+b)
+      }else {
+        return a;
+      }
+    }
+}
+
+console.log(sum(1)(2)(3)(4)()) 
+
+
+let sum1 = a => b => b ? sum1(a+b) : a 
+console.log(sum1(1)(20)(3)(4)(5)()) 
